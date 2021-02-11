@@ -1,0 +1,21 @@
+{
+  "name": "grpc-hello-world",
+  "description": "Learning gRPC",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:RodrigoMattosoSilveira/grpc-hello-world.git",
+  "author": "Rodrigo Silveira <r3850365@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-protobuf": "^3.15.0-rc.1",
+    "grpc": "^1.24.5"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/google-protobuf": "^3.7.4",
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.5"
+  }
+}
