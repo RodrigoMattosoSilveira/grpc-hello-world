@@ -6,7 +6,9 @@
   "repository": "git@github.com:RodrigoMattosoSilveira/grpc-hello-world.git",
   "author": "Rodrigo Silveira <r3850365@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "protoc": "./scripts/protoc.sh"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "google-protobuf": "^3.15.0-rc.1",
@@ -16,6 +18,8 @@
     "@types/dotenv": "^8.2.0",
     "@types/google-protobuf": "^3.7.4",
     "@types/node": "^14.14.25",
+    "grpc-tools": "^1.10.0",
+    "grpc_tools_node_protoc_ts": "^5.1.1",
     "typescript": "^4.1.5"
   }
 }

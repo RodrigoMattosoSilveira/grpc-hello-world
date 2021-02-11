@@ -105,3 +105,6 @@ dist
 build
 
 .idea/
+
+src/proto/**/*.js
+src/proto/**/*.d.ts
